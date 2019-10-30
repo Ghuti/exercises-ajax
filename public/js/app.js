@@ -68,12 +68,6 @@ $(function() {
   var minute1 = document.getElementById("minutes").textContent;
   var seconde1 = document.getElementById("seconds").textContent;
 
-
-  console.log(hour1);
-  console.log(minute1);
-  console.log(seconde1);
-
-
   seconde1++;
   if (seconde1 == 60) {
     seconde1 = 0
